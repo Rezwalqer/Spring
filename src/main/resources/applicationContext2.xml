@@ -9,10 +9,11 @@
 
     <bean id="customCar"
           class="org.example.introduction.Car"
-          scope="prototype"
-          init-method="init"
-          destroy-method="destroy"
-    >
+    scope="singleton"
+    init-method="init"
+    destroy-method="destroy">
+
+
 
     </bean>
     <bean id="customPerson"
